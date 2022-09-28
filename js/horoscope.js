@@ -53,6 +53,7 @@ const displayHoroscopeName = function (name) {
     "<strong style='color:green'>" + name + "</strong>";
 };
 
+//////////////////////////////////////////TASK-START//////////////////////////////////////////
 const getHoroscopeName = function (day, month) {
   if((day >= 21 && month == 3) || (day <= 19 && month == 4)) {
     return "Aries";
@@ -80,7 +81,7 @@ const getHoroscopeName = function (day, month) {
     return "Pisces";
   }
 };
-
+//////////////////////////////////////////TASK-END//////////////////////////////////////////
 const calculateTax = function (amount) {
   return amount * 0.14;
 };
